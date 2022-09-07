@@ -55,7 +55,7 @@ const SecondApp = (a, b) => {
 // }
 
 
-const FirstApp = ({title, subtitle}) => {
+const FirstApp = ({title, subtitle, name}) => {
 
     // if (!title){
     //     throw new Error('El titulo no existe!!');
@@ -68,6 +68,7 @@ const FirstApp = ({title, subtitle}) => {
             <h1 style={{textAlign: "center"}}>{title}</h1>
             <h3 style={{textAlign: "center"}}>{subtitle}</h3>
             <p style={{textAlign: "center"}}>Soy un titulo !!</p>
+            <p style={{textAlign: "right"}}>{name}</p>
         </>
     )
 }
@@ -77,6 +78,14 @@ export default FirstApp;
 
 FirstApp.propTypes = {
 
+    name: PropTypes.string.isRequired,
+    subtitle: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired, //es requerido
-    subtitle: PropTypes.number.isRequired
+}
+
+//defaultprops van a entrar antes que nuestros proptypes
+FirstApp.defaultProps = {
+    name: 'David Oleas',
+    subtitle: 983818763,
+    title: 'Innovación Tecnológica'
 }

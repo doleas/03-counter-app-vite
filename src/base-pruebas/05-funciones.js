@@ -9,7 +9,7 @@ export const getUser = () => ({
 // Tarea
 export const getUsuarioActivo = ( nombre ) =>({
     uid: 'ABC567',
-    username: nombre.toUpperCase()
+    username: nombre
 })
 
 

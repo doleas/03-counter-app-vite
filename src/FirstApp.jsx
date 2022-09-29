@@ -87,5 +87,5 @@ FirstApp.propTypes = {
 FirstApp.defaultProps = {
     name: 'David Oleas',
     subtitle: 983818763,
-    title: 'Innovación Tecnológica'
+    // title: 'Innovación Tecnológica'
 }

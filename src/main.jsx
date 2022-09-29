@@ -13,9 +13,9 @@ ReactDOM.createRoot(document.getElementById('root'))
         <React.StrictMode>
             {/* <HelloWorld />
             <OtroComponente />
-            <FirstApp />
             <CounterApp value={10}/> */}
-            <CounterApp2 />
+            {/* <CounterApp2 /> */}
+            <FirstApp title="Hola, soy el Sr. Vegeta"/>
         </React.StrictMode>
 
     );

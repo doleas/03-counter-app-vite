@@ -86,6 +86,6 @@ FirstApp.propTypes = {
 //defaultprops van a entrar antes que nuestros proptypes
 FirstApp.defaultProps = {
     name: 'David Oleas',
-    subtitle: 983818763,
+    subtitle: 'Hola soy un subtitulo',
     // title: 'Innovación Tecnológica'
 }

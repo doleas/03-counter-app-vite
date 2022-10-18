@@ -12,10 +12,10 @@ ReactDOM.createRoot(document.getElementById('root'))
     .render(
         <React.StrictMode>
             {/* <HelloWorld />
-            <OtroComponente />
-            <CounterApp value={10}/> */}
+            <OtroComponente /> */}
+            <CounterApp value={10}/> 
             {/* <CounterApp2 /> */}
-            <FirstApp title="Hola, soy el Sr. Vegeta"/>
+            {/* <FirstApp title="Hola, soy el Sr. Vegeta"/> */}
         </React.StrictMode>
 
     );

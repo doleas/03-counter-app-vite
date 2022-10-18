@@ -23,14 +23,15 @@ const CounterApp = ({value}) => {
     return (  
         <>
             <h1> Counter App</h1>
+            
             <h3> {value}</h3>
             {/* Esto es un contador */}
             {/* <button onClick={function(){console.log('+1')}}> Contador </button> */}
             {/* Pero con event puedo tener toda la informacion del evento como posicion... */}
             <button onClick={handleAdd}> Contador </button>
             {/* (event) => handleAdd(event) se lo puede reemplazar por solo manda la referencia a la funcion handleAdd */}
-
-            <h3> {counter}</h3>
+            <h2> {counter}</h2>
+            
 
         </>
     )

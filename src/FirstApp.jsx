@@ -65,8 +65,9 @@ const FirstApp = ({title, subtitle, name}) => {
 
     return (
         <>  
-            <h1 style={{textAlign: "center"}}>{title}</h1>
-            <h3 style={{textAlign: "center"}}>{subtitle}</h3>
+            <h1 data-testid="test-title" style={{textAlign: "center"}}>{title}</h1>
+            <p>{ subtitle }</p>
+            <p>{ subtitle }</p>
             <p style={{textAlign: "center"}}>Soy un titulo !!</p>
             <p style={{textAlign: "right"}}>{name}</p>
         </>
@@ -85,7 +86,7 @@ FirstApp.propTypes = {
 
 //defaultprops van a entrar antes que nuestros proptypes
 FirstApp.defaultProps = {
-    name: 'David Oleas',
-    subtitle: 'Hola soy un subtitulo',
-    // title: 'Innovación Tecnológica'
+    name: 'David Oleas'
+    // subtitle: 'Hola soy el subtitulo 1'
+    // title: 'Hola, soy el Sr Goku'
 }
